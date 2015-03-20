@@ -1,0 +1,12 @@
+function FirstFactorial(num) {
+
+  // code goes here
+  tot = 1;
+  while (num > 1) {
+    tot *= num;
+    num -= 1;
+  }
+  num = tot;
+  return num;
+
+}
